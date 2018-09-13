@@ -1,2 +1,2 @@
 # configuration
-config repository for spring boot/cloud
+config repository for my test
