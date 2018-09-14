@@ -3,7 +3,8 @@ spring:
     url: jdbc:mysql://192.168.56.101:3306/me?useSSL=false
     username: root
     password: 123456
-    driverClassName: com.mysql.jdbc.Driver
+    #driverClassName: com.mysql.jdbc.Driver
+    driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
     database: MYSQL # Specify the DBMS
     show-sql: true  # Show or not log for each sql query
