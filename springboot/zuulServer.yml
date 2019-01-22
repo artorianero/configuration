@@ -1,3 +1,12 @@
+server:
+  port: 18080
+  session:
+    timeout: 72000
+  tomcat:
+    acceptCount: 500
+    maxThreads: 400
+    maxConnections: 1000
+
 zuul:
   routes:
     users:
